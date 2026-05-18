@@ -81,9 +81,9 @@ Top of `adaptive-brightness.py`:
 
 | Knob              | Default       | Meaning                                  |
 |-------------------|---------------|------------------------------------------|
-| `MIN_PCT`         | `0.05`        | Floor target so the panel never goes black in pitch dark |
+| `MIN_PCT`         | `0.20`        | Floor target so the panel never goes black in pitch dark |
 | `LUX_FLOOR`       | `1.0`         | At or below this lux, target == `MIN_PCT` |
-| `LUX_FULL`        | `1000.0`      | At or above this lux, target == 100%      |
+| `LUX_FULL`        | `300.0`       | At or above this lux, target == 100%      |
 | `TIME_CONSTANT_US`| `5_000_000`   | EWMA time constant (µs); higher = smoother |
 | `EPS`             | `0.01`        | Don't resend if target moved less than this |
 
