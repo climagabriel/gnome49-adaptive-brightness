@@ -15,7 +15,7 @@ from gi.repository import Gio, GLib
 
 # Curve: lux -> brightness fraction in [MIN_PCT, 1.0].
 # Log-scaled so the dim end gets fine control. Tunable.
-MIN_PCT = 0.20       # floor so the panel is never invisible in pitch dark
+MIN_PCT = 0.30       # floor so the panel is never invisible in pitch dark
 LUX_FULL = 300.0     # >= this lux -> full brightness
 LUX_FLOOR = 1.0      # < this lux -> MIN_PCT
 
